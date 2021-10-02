@@ -16,6 +16,7 @@ class SizingInformation {
 
   @override
   String toString() {
+    // ignore: lines_longer_than_80_chars
     return 'SizingInformation(orientation: $orientation, deviceScreenType: $deviceScreenType, screenSize: $screenSize, localWidgetSize: $localWidgetSize)';
   }
 }
